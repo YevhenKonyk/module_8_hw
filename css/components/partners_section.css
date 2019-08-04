@@ -1,6 +1,6 @@
 /* Partners section */
 .partners-section {
-    padding: 75px 0;
+    padding: 70px 0 57px;
 }
 
 .partners-section__title {
@@ -16,11 +16,16 @@
 
 .partners {
     list-style: none;
+    margin-bottom: 30px;
 }
 
 .partners__item {
     width: 220px;
-    margin: 0 auto 28px;
+    margin: 0 auto;
+}
+
+.partners__item:not(:last-child) {
+    margin-bottom: 28px;
 }
 
 .partners__img {
@@ -111,3 +116,7 @@
     width: 284px;
     height: 44px;
 }
+
+* {
+    outline: 1px solid red;
+} 

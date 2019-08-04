@@ -4,13 +4,13 @@
     background-size: cover;
     background-position: center;
 
-    padding-bottom: 75px;
+    padding-bottom: 134px;
 }
 
 .login-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .login-controls {
@@ -45,7 +45,6 @@
 
 .logo {
     width: 176px;
-
     margin-bottom: 38px;
 }
 
@@ -70,7 +69,7 @@
     text-align: center;
 
     width: 220px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-bottom: 20px;
 }
 
