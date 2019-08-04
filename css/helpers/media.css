@@ -1,7 +1,4 @@
 @media (min-width: 768px) {
-    * {
-        outline: 1px solid red;
-    }
     /* Header */
     .logo {
         margin: 0;
@@ -89,5 +86,19 @@
 
     .partners__show-more-btn {
         width: 197px;
+    }
+}
+
+@media (min-width: 960px) {
+    .login-wrapper {
+        margin-bottom: 154px;
+    }
+
+    .partners {
+        width: auto;
+    }
+
+    .partners__item.partners__item {
+        margin-bottom: 0;
     }
 }

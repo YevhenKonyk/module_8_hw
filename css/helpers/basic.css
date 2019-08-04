@@ -35,6 +35,6 @@ a {
 /* Desktop */
 @media (min-width: 960px) {
     .container {
-        width: 944px;
+        width: 940px;
     }
 }
